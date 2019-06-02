@@ -6,14 +6,23 @@ html, body {
 .container {
     display: flex;
     flex-wrap: wrap;
-   
-    height: 465px;  
+    height: 60px;  
     margin-left: 520px;
     width: 400px;  
 }
 
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;  
+    margin-top: 60px;
+    width: 400px;  
+    background-color: grey;
+}
+
+
 .logo {
-    margin-right: 10px;
+    margin-left: 160px;
     text-align: center;
     text-justify: auto;
     /* float: left; */
@@ -23,19 +32,33 @@ html, body {
     border: 1px solid #000;
     margin-bottom: 10px;
     width: 400px;
-    background-color: red;
+    background-color:red;
     /* align: left; */
 }
 
 .pesquisa{
     margin-top: 10px;
-    margin-right: 100px;
+    margin-left: 10px;
+    margin-bottom: 5px;
     /* float: left; */
 }
 
-.descricao{
-    
+.imagem{
+    height: 100px;
+    margin-top: 5px;
+}
+ .imagem2 {
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 160px;
+ }
+
+.imagem3 {
+    height: 50px;
 }
 
+.botao {
+    margin-left: 10px;
+}
     
  
